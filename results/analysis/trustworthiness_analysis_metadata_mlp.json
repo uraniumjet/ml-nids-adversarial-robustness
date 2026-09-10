@@ -1,0 +1,10 @@
+{
+  "model": "mlp",
+  "dataset": "UNSW-NB15",
+  "seed": 42,
+  "samples": 1000,
+  "ece_bins": 10,
+  "brier_score": "mean squared probability error",
+  "constraint_type": "constraint-aware feature-space",
+  "host_space_attack": false
+}
