@@ -1,0 +1,20 @@
+{
+  "seed": 42,
+  "n_samples": 1000,
+  "epsilons": [
+    0.05,
+    0.1,
+    0.2
+  ],
+  "pgd_steps": 10,
+  "total_processed_features": 192,
+  "numerical_features": 39,
+  "constraint_eligible_features": 27,
+  "fixed_features": 165,
+  "constraint_type": "constraint-aware feature-space",
+  "host_space_attack": false,
+  "bounds_source": "UNSW-NB15 training split only",
+  "categorical_features_fixed": true,
+  "binary_semantic_features_fixed": true,
+  "contextual_derived_features_fixed": true
+}
