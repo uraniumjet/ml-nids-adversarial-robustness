@@ -1,0 +1,21 @@
+{
+  "model": "mlp",
+  "dataset": "UNSW-NB15",
+  "seed": 42,
+  "samples": 1000,
+  "bootstrap_iterations": 10000,
+  "bootstrap_confidence_level": 0.95,
+  "resampling_unit": "paired test instance",
+  "comparison": "conventional vs constraint-aware",
+  "attacks": [
+    "FGSM",
+    "PGD"
+  ],
+  "epsilons": [
+    0.05,
+    0.1,
+    0.2
+  ],
+  "constraint_type": "constraint-aware feature-space",
+  "host_space_attack": false
+}
