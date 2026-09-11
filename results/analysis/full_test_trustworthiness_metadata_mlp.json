@@ -1,0 +1,15 @@
+{
+  "model": "mlp",
+  "dataset": "UNSW-NB15",
+  "seed": 42,
+  "full_test_samples": 82332,
+  "attack_eligible_samples": 1000,
+  "ece_bins": 10,
+  "attack_eligible_selection": "same 1,000 malicious clean-correct test observations used by the main adversarial experiments",
+  "unattacked_test_observations": 81332,
+  "calibration_scope": "complete UNSW-NB15 test distribution",
+  "constraint_type": "constraint-aware feature-space",
+  "host_space_attack": false,
+  "training_bounds": "empirical minimum and maximum values computed from the training split only",
+  "purpose": "full-distribution trustworthiness audit; the previous 1,000-sample analysis is preserved separately"
+}
