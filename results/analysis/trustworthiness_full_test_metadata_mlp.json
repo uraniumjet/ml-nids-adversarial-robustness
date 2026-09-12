@@ -1,0 +1,25 @@
+{
+  "model": "mlp",
+  "dataset": "UNSW-NB15",
+  "seed": 42,
+  "full_test_samples": 82332,
+  "attack_subset_samples": 1000,
+  "attack_subset_definition": "malicious observations correctly classified under clean conditions",
+  "epsilon_values": [
+    0.05,
+    0.1,
+    0.2
+  ],
+  "pgd_steps": 10,
+  "pgd_step_size": "epsilon / 4",
+  "ece_bins": 10,
+  "ece_binning": "equal-width bins over [0, 1]",
+  "primary_trustworthiness_population": "complete UNSW-NB15 test set",
+  "paired_attack_population": "fixed 1000-sample malicious clean-correct subset",
+  "full_test_construction": "clean probabilities for all test observations; adversarial probabilities replace clean probabilities only at attacked sample indices",
+  "constraint_type": "constraint-aware feature-space",
+  "host_space_attack": false,
+  "training_derived_bounds": true,
+  "fixed_features_preserved": true,
+  "categorical_features_perturbed": false
+}
