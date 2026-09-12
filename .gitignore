@@ -26,6 +26,16 @@ results/logs/*
 results/figures/*
 results/tables/*
 
+# Trained model artifacts
+results/models/*
+
+# Generated analysis outputs
+results/analysis/*.csv
+results/analysis/*.json
+
+!results/models/.gitkeep
+
+
 # OS/editor files
 .DS_Store
 *.swp
