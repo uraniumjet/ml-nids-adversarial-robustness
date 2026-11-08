@@ -52,3 +52,4 @@ results/analysis/*.json
 # Temporary files
 *.tmp
 *.bak
+.vev/

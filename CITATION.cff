@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the paper and this archive."
+title: "Code and results for: Evaluating Adversarial Robustness and Predictive Trustworthiness of Machine-Learning-Based Network Intrusion Detection Under Constrained Feature-Space Attacks"
+authors:
+  - family-names: Shehu
+    given-names: Yusuf Ahmad
+    affiliation: Kalinga University
+  - family-names: Faridi
+    given-names: Ayaz Ahmed
+    affiliation: Kalinga University
+version: 1.0.0
+date-released: 2026-11-08
+license: MIT
+repository-code: "https://github.com/uraniumjet/ml-nids-adversarial-robustness"
+keywords:
+  - network intrusion detection
+  - adversarial robustness
+  - constraint-aware evaluation
+  - UNSW-NB15
